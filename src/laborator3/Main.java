@@ -74,7 +74,7 @@ public class Main {
         writer3.close();
 
 
-        System.out.print("-----------------------CITIRE/SCRIERE FISIERE (MULTITHREAD STUDENTI)---------------------\n");
+        System.out.print("-----------------------CITIRE/SCRIERE FISIERE (MULTITHREAD ");
         cursuri.ScrieFisiere();
         cursuri.CitesteFisiere();
         for (Student s : cursuri.studenti) System.out.println(s);
